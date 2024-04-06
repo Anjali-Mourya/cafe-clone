@@ -1,0 +1,44 @@
+<section class="input-sec">
+<div class="container">
+  {{#each footers}}
+  <div class="row">
+<div class="col-md-3">
+  <h2>{{this.title1}}</h2>
+  <p class="para">{{this.subTitle1}}</p>
+  <form action="/process-contact-form" method="post">
+    <p class="email">{{this.email}}</p>
+    <div class="inputBox">
+    <input type="email" name="email" id="email" class="btn btn-outline-secondary" required>
+     <button type="submit" class="join btn btn-outline-secondary">{{this.inputBtn}}</button>
+    </div>
+  </form>
+</div>
+<div class="col-md-2"></div>
+<div class="col-md-3">
+  <h2>{{this.title2}}</h2>
+  <p class="num py-3">{{this.subTitle2}}<br>{{this.subTitle3}}</p>
+
+  <p class="num">{{this.subTitle4}}<br>{{this.subTitle5}}</p>
+</div>
+<div class="col-md-2"></div>
+<div class="col-md-2">
+  <h2 class="social"> {{this.social1}}</h2>
+  <h2 class="social">{{this.social2}}</h2>
+  <h2 class="social">{{this.social3}}</h2>
+</div>
+
+
+  </div>
+  {{/each}}
+</div>
+</section>
+
+<div class="container-fluid">
+  <div class="row py-2">
+    {{#each footers}}
+    <div class="col-md-12">
+      <p class="text-center text-secondary "> <i class="{{this.icon}}"></i> {{this.footer}}</p>
+    </div>
+    {{/each}}
+  </div>
+</div>

@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.cafe{
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.mynavbar{
+  background-color: #F7E5D2;
+  /* height: 100px; */
+}
+.fourty{
+  font-size: 2rem;
+}
+.mylink {
+  margin-left: 4rem;
+  font-weight: 450;
+}
+.sec_section{
+  background-image: url('/static/images/cafe.jpg');
+  height: 650px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.cafe_p{
+  color: #CCCFCF;
+  font-size: 1.3rem;
+}
+.res_title{
+  margin-top: 6rem;
+}
+.spot{
+  font-size: 3.5rem;
+}
+.sec_section button{
+  margin-left: 3rem;
+  border-radius: 2px;
+  width: 20%;
+}
+.sec_section{
+  background-attachment: fixed;
+}
+.sec_section p h1 button{
+  background-attachment: scroll;
+}
+.title-box p{
+  font-size: 1.4rem;
+}
+.food-img{
+  max-height: 500px;
+  object-fit: cover;
+  /* max-width: 500px; */
+}
+.title-eat{
+  margin-top: 6rem;
+}
+.eat{
+  font-size: 4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.break-title{
+  font-size: 1.5rem;
+}
+.mysection button{
+  width: 30%;
+  padding: 10px;
+  padding-right: 15px;
+  border: 1px solid rgb(12, 11, 11);
+}
+.mysection button:hover{
+background-color: gray;
+color: #fff;
+}
+.enjoy-img{
+  max-height: 900px;
+  object-fit: cover;
+}
+.drop-sec{
+  background-color: #FBF2E8;
+}
+.left-sec p{
+  margin-left: 10rem;
+}
+.right-sec p{
+  margin-right: 12rem;
+}
+.ban-title{
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.resturant-img img{
+  width: 261px;
+  height: 350px;
+  object-fit: cover;
+  /* background-size: contain; */
+}
+.flex{
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+}
+.input-sec{
+  background-color: #404D3C;
+  padding: 6rem;
+}
+.input-sec h2{
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-sec .para{
+  color: rgb(210, 206, 206);
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.input-sec .email{
+  color: rgb(210, 206, 206);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.input-sec input{
+  width: 65%;
+  height: 40px;
+  position: relative;
+  top: 0rem;
+  border: 1px solid #fff;
+  border-radius: 1px;
+}
+.inputBox button{
+  width: 80px;
+  height: 39px;
+  padding-right: 8px;
+  position: relative;
+  right: 0.4rem;
+  border: 1px solid #fff;
+  border-radius: 1px;
+}
+.num{
+  color: rgb(210, 206, 206);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.social{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+}
+.contact_one{
+  background-color: #FBF2E8;
+  padding: 7.8rem;
+}
+.contact_one h1{
+  font-size: 4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: #000;
+}
+.contact_one p{
+  font-size: 1.3rem;
+  color: #454443;
+}
+.bite h1{
+  padding-top: 4rem;
+  font-size: 3.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: #000;
+}
+.hearts h1{
+  font-size: 3.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: #000;
+}
+.menu-sec{
+  background-color: #FBF2E8;
+  padding: 3.5rem;
+}
+.menu-head{
+  font-size: 3.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+.bakery-sec{
+  padding: 5rem;
+}
+.bakery-sec h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+}
+.bakery-sec h4{
+  font-size: 2rem;
+}
+.bakery-sec .rs{
+  color: red;
+}
+.address-sec i{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #000;
+}
+.information{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000;
+}
+.address-sec a{
+  color: gray;
+  text-decoration: none;
+}

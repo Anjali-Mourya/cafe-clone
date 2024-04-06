@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>This Is Us | 47th-Cafe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/images/logo.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+
+  {{> navbar data=navdetails}}
+
+  {{!-- section1 --}}
+  <section class="contact_one">
+    <div class="container text-center">
+      {{#each us}}
+      <div class="row">
+        <div class="col-md-12">
+          <h1>{{this.heading}}</h1>
+          <p>{{this.subHeading}}</p>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+
+  {{!-- section2  --}}
+
+<section>
+<div class="container-fluid">
+  {{#each section2s}}
+  <div class="row">
+
+<div class="col-md-5">
+  {{!-- left side  --}}
+  <img src="{{this.imageUrl}}" class="img-fluid" alt="">
+</div>
+<div class="col-md-1">
+  {{!-- middle  --}}
+</div>
+<div class="col-md-5 py-5 bite ">
+  {{!-- right side  --}}
+  <h1>{{this.title1}}<br>
+  {{this.title2}}</h1>
+<p class="py-4">{{this.subTitle}}</p>
+<a href="{{this.linkUrl}}"><Button class="btn btn-outline-secondary btn-lg">{{this.linkText}}</Button></a>
+</div>
+<div class="col-md-1"></div>
+  </div>
+  {{/each}}
+</div>
+</section>
+
+{{!-- section 3  --}}
+
+<section class="bg-secondary py-5">
+  <div class="container-fluid">
+    <div class="row">
+      {{#each section3s}}
+      <div class="col-md-12">
+        <h1 class="text-center text-white">{{this.title}}</h1>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+{{!-- section4  --}}
+
+<section>
+  <div class="container-fluid">
+    {{#each section4s}}
+    <div class="row">
+
+<div class="col-md-1"></div>
+<div class="col-md-5 py-5 hearts">
+  {{!-- left side  --}}
+  <h1>{{this.title1}}<br>
+ {{this.title2}}</h1>
+<p class="py-3">{{this.subTitle}}</p>
+<a href="{{this.linkUrl}}"><button class="btn btn-outline-secondary btn-lg">{{this.linkText}}</button></a>
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-5">
+  {{!-- right side  --}}
+  <img src="{{this.imageUrl}}" alt="">
+</div>
+
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+{{!-- section 5  --}}
+
+{{> footer footers =footers}}
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
