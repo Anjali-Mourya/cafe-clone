@@ -18,11 +18,12 @@ const Menuitem = require("../modules/Menuitem")
 const Connectinfo = require("../modules/Connectinfo")
 const Contactinfo = require("../modules/Contactinfo")
 const Contactinfo2 = require("../modules/Contactinfo2")
+const Mysignup = require("../modules/Mysignup");
 
 
 
 
-routes.get("/",async(req,res)=>{
+routes.get("/home",async(req,res)=>{
   const navdetails = await Navdetail.findOne({"_id":"6607c246b95e696dd0a5b5d6"})
  const bannerOnes = await Banner1.find()
  const swipers = await Swiper.find()
@@ -96,6 +97,13 @@ routes.get("/contact-us",async(req,res)=>{
   })
 })
 
+routes.get("/",async(req,res) =>{
+  res.render('mysignup')
+})
+routes.get("/login",async(req,res)=>{
+  res.render("login")
+})
+
 
 
 routes.post("/process-contact-form",async(req,res)=>{
@@ -103,10 +111,10 @@ routes.post("/process-contact-form",async(req,res)=>{
   try {
     const data = await Contact.create(req.body)
     console.log(data)
-    res.redirect("/")
+    res.redirect("/home")
   } catch (error) {
     console.log(error)
-    res.redirect("/")
+    res.redirect("/home")
   }
 })
 routes.post("/process-contact-us-form",async(req,res)=>{
@@ -119,6 +127,35 @@ routes.post("/process-contact-us-form",async(req,res)=>{
     res.redirect("/contact-us")
   }
 })
+routes.post("/process-signup-form",async(req,res)=>{
+  console.log(req.body)
+  try {
+    const mylog = await Mysignup.create(req.body);
+    res.redirect("/home")
+  } catch (error) {
+    console.log(error)
+     res.redirect("/")
+  }
+})
+
+routes.post("/process-login-form",async(req,res)=>{
+ 
+  try {
+    const check = await Mysignup.findOne({
+      myemail:req.body.myemail,
+    })
+    if(check.password === req.body.password){
+    res.redirect("/home")
+    
+    }else{
+      res.send("wrong password")
+    }
+  } catch (error) {
+    res.send("Both username or password is incorrect")
+  }
+
+})
+
 
 
 module.exports = routes
