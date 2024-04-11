@@ -22,7 +22,7 @@
 
 {{!-- banner1 section  --}}
 
-<section class="sec_section">
+<section class="sec_section img-fluid">
 <div class="container-fluid">
   <div class="row">
 {{#each bannerOnes}}
@@ -115,7 +115,7 @@
   {{#each bannerThrees}}
   <div class="col-md-6">
   {{!-- left side  --}}
-  <img src="{{this.image}}" class="food-img" alt="">
+  <img src="{{this.image}}" class="food-img food-img2" alt="">
 </div>
 <div class="col-md-2"></div>
 <div class="col-md-4 pt-5 title-eat">
@@ -172,7 +172,7 @@
 <div class="col-md-5 text-center left-sec py-4">
   {{!-- left side  --}}
 <p class="ban-title">{{this.titleOne}}</p>
-<p class="text-secondary">{{this.subTitleOne}}<br> {{this.subTitleOne2}}</p>
+<p class="text-secondary ban-title-text">{{this.subTitleOne}}<br> {{this.subTitleOne2}}</p>
 </div>
 
 <div class="col-md-1 py-4">
@@ -183,8 +183,8 @@
 </div>
 <div class="col-md-5 text-center right-sec py-4">
   {{!-- right side  --}}
-  <p class="ban-title">{{this.titleTwo}}</p>
-  <p class="text-secondary">{{this.subTitleTwo}}<br>{{this.subTitleTwo2}}<br>{{subTitleTwo3}}</p>
+  <p class="ban-title ban-title2">{{this.titleTwo}}</p>
+  <p class="text-secondary ban-title-text2">{{this.subTitleTwo}}<br>{{this.subTitleTwo2}}<br>{{subTitleTwo3}}</p>
 </div>
 {{/each}}
   </div>

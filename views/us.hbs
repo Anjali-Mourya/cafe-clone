@@ -22,8 +22,8 @@
       {{#each us}}
       <div class="row">
         <div class="col-md-12">
-          <h1>{{this.heading}}</h1>
-          <p>{{this.subHeading}}</p>
+          <h1 class="cont-head">{{this.heading}}</h1>
+          <p class="cont-para">{{this.subHeading}}</p>
         </div>
       </div>
       {{/each}}
@@ -32,21 +32,21 @@
 
   {{!-- section2  --}}
 
-<section>
+<section class="section-2">
 <div class="container-fluid">
   {{#each section2s}}
   <div class="row">
 
 <div class="col-md-5">
   {{!-- left side  --}}
-  <img src="{{this.imageUrl}}" class="img-fluid" alt="">
+  <img src="{{this.imageUrl}}" class="img-fluid img-fluid-2" alt="">
 </div>
 <div class="col-md-1">
   {{!-- middle  --}}
 </div>
 <div class="col-md-5 py-5 bite ">
   {{!-- right side  --}}
-  <h1>{{this.title1}}<br>
+  <h1 class="bite-title">{{this.title1}}<br>
   {{this.title2}}</h1>
 <p class="py-4">{{this.subTitle}}</p>
 <a href="{{this.linkUrl}}"><Button class="btn btn-outline-secondary btn-lg">{{this.linkText}}</Button></a>
@@ -81,7 +81,7 @@
 <div class="col-md-1"></div>
 <div class="col-md-5 py-5 hearts">
   {{!-- left side  --}}
-  <h1>{{this.title1}}<br>
+  <h1 class="bite-title">{{this.title1}}<br>
  {{this.title2}}</h1>
 <p class="py-3">{{this.subTitle}}</p>
 <a href="{{this.linkUrl}}"><button class="btn btn-outline-secondary btn-lg">{{this.linkText}}</button></a>
@@ -89,7 +89,7 @@
 <div class="col-md-1"></div>
 <div class="col-md-5">
   {{!-- right side  --}}
-  <img src="{{this.imageUrl}}" alt="">
+  <img src="{{this.imageUrl}}" class="us-img" alt="">
 </div>
 
     </div>

@@ -206,6 +206,11 @@ color: #fff;
   font-weight: 600;
   color: #000;
 }
+.cont-us{
+  font-size: 3.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 3rem;
+}
 .information{
   font-size: 1.3rem;
   font-weight: 600;
@@ -241,3 +246,463 @@ background-position: top left;
 .myimg{
   border-radius: 10px;
 }
+
+
+
+@media only screen and (max-width:600px){
+  .slider_container p{
+    font-size: 1rem;
+  }
+  .swiper-button-next{
+    padding-left: 2rem;
+  }
+  .swiper-button-prev{
+    padding-right: 2rem;
+  }
+  .slider_container .container-fluid{
+    margin-top: 0.8rem;
+  }
+  .mysection a button{
+    margin-bottom: 2rem;
+  }
+  .food-img{
+    width: 350px;
+    height: 300px;
+  }
+  .food-img2{
+    margin-top: 6rem;
+  }
+  .d-flex .vr{
+    display: none;
+  }
+  .ban-title ,.ban-title-text{
+    position: relative;
+    right: 4rem;
+  }
+  .ban-title2 , .ban-title-text2{
+    position: relative;
+    left: 6.5rem;
+  }
+  .enjoy-img{
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 6rem;
+  }
+  #address .right-sec{
+    position: relative;
+    bottom: 11rem;
+  }
+  .input-sec{
+    margin-top: 4rem;
+  }
+  .input-sec .input-head1,.para,.email,.inputBox{
+    position: relative;
+    right: 4rem;
+  }
+  .input-sec .para{
+    margin-bottom: 0.7rem;
+  }
+  .input-sec .inputBox input{
+    width: 120%;
+    border:2px solid #CCCFCF;
+
+  }
+  .input-sec .join{
+    position: relative;
+    left: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+  }
+  .contact_one .cont-head{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    
+  }
+  .foot{
+    margin-top: 2rem;
+  }
+  .cont-head .para{
+    font-size: 2rem;
+  }
+  .section-2 .img-fluid-2{
+    height: 300px;
+    margin-top: 5rem;
+  }
+  .bite .bite-title{
+    font-size: 2.5rem;
+  }
+  .bite-title-2{
+    font-size: 2.5rem;
+  }
+  .us-img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  
+  .form-page form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cont-us{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+  }
+  .address-sec{
+    position: relative;
+    bottom: 28rem;
+    margin-left: 1.3rem;
+  }
+  .map-section{
+    position: relative;
+    bottom: 18rem;
+  }
+
+} 
+
+
+@media only screen and (max-width:900px){
+  .slider_container p{
+    font-size: 2rem;
+  }
+  .swiper-button-next{
+    padding-left: 2rem;
+  }
+  .swiper-button-prev{
+    padding-right: 2rem;
+  }
+  .slider_container .container-fluid{
+    margin-top: 0.8rem;
+  }
+  .mysection a button{
+    margin-bottom: 2rem;
+  }
+  .food-img{
+    width: 300px;
+    height: 350px;
+    margin-top: 13rem;
+    object-fit: cover;
+  }
+  .food-img2{
+    margin-top: 13rem;
+  }
+  
+  .input-sec{
+    margin-top: 4rem;
+  }
+  .mysection{
+    margin-right: 2rem;
+  }
+  .mysection button{
+    width:50%;
+  }
+  .resturant-img{
+    margin-top: 3rem;
+  }
+  .input-sec .input-head1,.para,.email,.inputBox{
+    position: relative;
+    right: 4rem;
+  }
+  .input-sec .input-head1{
+    margin-top: 3rem;
+  }
+  .input-sec .para{
+    margin-bottom: 0.7rem;
+  }
+  .enjoy-img{
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 14rem;
+  }
+  .input-sec .inputBox input{
+    width: 120%;
+    border:2px solid #CCCFCF;
+  }
+  .input-sec .join{
+    position: relative;
+    left: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+  }
+  .contact_one .cont-head{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    
+  }
+  .foot{
+    margin-top: 2rem;
+  }
+  .cont-head .para{
+    font-size: 2rem;
+  }
+  .section-2 .img-fluid-2{
+    height: 350px;
+    margin-top: 10rem;
+    object-fit: cover;
+  }
+  .bite .bite-title{
+    font-size: 2.5rem;
+  }
+  .bite-title-2{
+    font-size: 3rem;
+  }
+  .us-img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 5rem;
+  }
+  .form-page form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cont-us{
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+  }
+ 
+  
+
+}
+
+@media only screen and (max-width:1200px){
+  .slider_container p{
+    font-size: 2rem;
+  }
+  .swiper-button-next{
+    padding-left: 2rem;
+  }
+  .swiper-button-prev{
+    padding-right: 2rem;
+  }
+  .slider_container .container-fluid{
+    margin-top: 0.8rem;
+  }
+  .mysection a button{
+    margin-bottom: 2rem;
+  }
+  .food-img{
+    width: 300px;
+    height: 350px;
+    margin-top: 14rem;
+    object-fit: cover;
+  }
+  .food-img2{
+    margin-top: 16rem;
+  }
+ 
+  .input-sec{
+    margin-top: 4rem;
+  }
+  .mysection{
+    margin-right: 2rem;
+  }
+  .mysection p{
+    font-size: 1.6rem;
+  }
+  .mysection .break-title{
+    font-size: 1rem;
+  }
+  .mysection button{
+    width:50%;
+    font-size: 1.5rem;
+  }
+  .enjoy-img{
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 10rem;
+  }
+  #address .ban-title{
+    font-size: 2rem;
+  }
+  #address .ban-title-text,.ban-title-text2{
+    font-size: 0.8rem;
+  }
+  .resturant-img{
+    margin-top: 3rem;
+  }
+  .input-sec .input-head1,.para,.email,.inputBox{
+    position: relative;
+    right: 4rem;
+  }
+  .input-sec .input-head1{
+    margin-top: 3rem;
+  }
+  .input-sec .para{
+    margin-bottom: 0.7rem;
+  }
+  .input-sec .inputBox input{
+    width: 120%;
+    border:2px solid #CCCFCF;
+  }
+  .input-sec .join{
+    position: relative;
+    left: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+  }
+  .contact_one .cont-head{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    
+  }
+  .foot{
+    margin-top: 2rem;
+  }
+  .cont-head .para{
+    font-size: 2rem;
+  }
+  .section-2 .img-fluid-2{
+    height: 350px;
+    margin-top: 6rem;
+    object-fit: cover;
+  }
+  .bite .bite-title{
+    font-size: 2.5rem;
+  }
+  .bite-title-2{
+    font-size: 3rem;
+  }
+  .us-img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 5rem;
+  }
+  .form-page form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cont-us{
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+  }
+ 
+  
+
+} 
+
+@media only screen and (max-width:1400px){
+  .slider_container p{
+    font-size: 1.2rem;
+  }
+  .swiper-button-next{
+    padding-left: 2rem;
+  }
+  .swiper-button-prev{
+    padding-right: 2rem;
+  }
+  .slider_container .container-fluid{
+    margin-top: 0.8rem;
+  }
+  .mysection a button{
+    margin-bottom: 2rem;
+  }
+  .food-img{
+    width: 300px;
+    height: 350px;
+    margin-top: 14rem;
+    object-fit: cover;
+  }
+  .food-img2{
+    margin-top: 13rem;
+  }
+ 
+  .input-sec{
+    margin-top: 4rem;
+  }
+  .mysection{
+    margin-right: 2rem;
+  }
+  .mysection p{
+    font-size: 1.4rem;
+  }
+  .mysection .break-title{
+    font-size: 2rem;
+  }
+  .mysection button{
+    width:50%;
+    font-size: 1.5rem;
+  }
+  .enjoy-img{
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 10rem;
+  }
+  #address .ban-title{
+    font-size: 2rem;
+  }
+  #address .ban-title-text,.ban-title-text2{
+    font-size: 0.9rem;
+  }
+  .resturant-img{
+    margin-top: 3rem;
+  }
+  .input-sec .input-head1,.para,.email,.inputBox{
+    position: relative;
+    right: 4rem;
+  }
+  .input-sec .input-head1{
+    margin-top: 3rem;
+  }
+  .input-sec .para{
+    margin-bottom: 0.7rem;
+  }
+  .input-sec .inputBox input{
+    width: 120%;
+    border:2px solid #CCCFCF;
+  }
+  .input-sec .join{
+    position: relative;
+    left: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+  }
+  .contact_one .cont-head{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    
+  }
+  .foot{
+    margin-top: 2rem;
+  }
+  .cont-head .para{
+    font-size: 2rem;
+  }
+  .section-2 .img-fluid-2{
+    height: 350px;
+    margin-top: 6rem;
+    object-fit: cover;
+  }
+  .bite .bite-title{
+    font-size: 2.5rem;
+  }
+  .bite-title-2{
+    font-size: 3rem;
+  }
+  .us-img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 5rem;
+  }
+  .form-page form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cont-us{
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+  }
+ 
+  
+
+} 
